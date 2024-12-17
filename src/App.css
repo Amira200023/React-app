@@ -1,0 +1,84 @@
+.app {
+    font-family: 'Georgia', serif; /* Updated to a more classic, bookish font */
+    text-align: center;
+    background-color: #f8f5e9; /* Light parchment-like background for a library feel */
+    padding: 30px; /* Slightly increased padding for better layout */
+    max-width: 600px; /* Slightly wider to accommodate book titles */
+    margin: 50px auto;
+    border-radius: 15px; /* Softer corners for a more welcoming appearance */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* More pronounced shadow for a polished look */
+  }
+  
+  .header {
+    margin-bottom: 30px;
+    font-size: 28px; /* Slightly larger font for the header */
+    color: #000; /* A subtle brownish color to match a library theme */
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+  
+  .input-container input {
+    width: 65%; /* Adjusted width for better balance */
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px; /* Softer input field */
+    outline: none;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1); /* Slight depth for input */
+  }
+  
+  .input-container button {
+    padding: 12px 18px;
+    font-size: 16px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #e94e77; /* A calming blue tone */
+    color: white;
+    cursor: pointer;
+  }
+  
+  .input-container button:hover {
+    background-color: #eebac8; 
+    color: black;
+  }
+  
+  .book-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .book {
+    background-color: #fffef8; /* Soft off-white for individual items */
+    padding: 15px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    cursor: pointer;
+  }
+  
+  .book.read {
+    text-decoration: line-through;
+    color: #999;
+  }
+  
+  .book button {
+    background-color: #e94e77; /* A vibrant but muted red for remove buttons */
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .book button:hover {
+    background-color: #d0416b; /* Slightly darker on hover */
+  }
+  
